@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FIT FOCUS | Suplementos Premium Chile</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--primary:#10b981;--primary-dark:#059669;--secondary:#111827;--dark:#0f172a;--light:#f8fafc;--gray:#6b7280;--bg:#f3f4f6;--card:#ffffff;--border:#e5e7eb}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Montserrat',sans-serif;color:var(--dark);background:linear-gradient(180deg,#fff 0%,#f8fafc 100%)}
+.navbar{box-shadow:0 2px 20px rgba(0,0,0,.08)}
+.navbar-brand{letter-spacing:.5px}
+.hero{min-height:100vh;background:linear-gradient(135deg,rgba(17,24,39,.95),rgba(16,185,129,.35)),url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1800&q=80');background-size:cover;background-position:center;color:#fff;display:flex;align-items:center;position:relative;overflow:hidden}
+.hero::after{content:'';position:absolute;inset:0;background:radial-gradient(circle at 20% 20%,rgba(16,185,129,.25),transparent 28%),radial-gradient(circle at 80% 80%,rgba(255,255,255,.08),transparent 22%)}
+.hero .container{position:relative;z-index:1}
+.hero h1{font-weight:800;line-height:1.05}
+.hero .lead{color:#e5e7eb}
+.btn-primary{background:var(--primary);border:none;box-shadow:0 10px 24px rgba(16,185,129,.25)}
+.btn-primary:hover{background:var(--primary-dark)}
+.btn-outline-light{border-color:rgba(255,255,255,.6)}
+.section-padding{padding:92px 0}
+.section-title{font-weight:800;letter-spacing:-.03em}
+.section-subtitle{color:var(--gray)}
+.card-product{border:1px solid var(--border);border-radius:22px;box-shadow:0 12px 30px rgba(15,23,42,.06);transition:.35s ease;background:var(--card);overflow:hidden}
+.card-product:hover{transform:translateY(-10px);box-shadow:0 18px 40px rgba(15,23,42,.12)}
+.card-product .icon-wrap{width:64px;height:64px;border-radius:18px;background:linear-gradient(135deg,rgba(16,185,129,.14),rgba(17,24,39,.06));display:flex;align-items:center;justify-content:center}
+.badge-custom{background:rgba(16,185,129,.16);color:var(--primary-dark);border:1px solid rgba(16,185,129,.28)}
+.feature-pill{background:#fff;border:1px solid var(--border);border-radius:999px;padding:.65rem 1rem;display:inline-flex;align-items:center;gap:.55rem;box-shadow:0 8px 20px rgba(15,23,42,.05)}
+.bg-soft{background:linear-gradient(180deg,#f8fafc 0%,#eef2f7 100%)}
+.accordion-item{border:1px solid var(--border);border-radius:16px;overflow:hidden;margin-bottom:14px}
+.accordion-button{font-weight:600}
+.accordion-button:not(.collapsed){background:rgba(16,185,129,.08);color:var(--secondary);box-shadow:none}
+.form-control{border-radius:14px;border:1px solid var(--border);padding:.9rem 1rem}
+.form-control:focus{border-color:var(--primary);box-shadow:0 0 0 .2rem rgba(16,185,129,.15)}
+.footer{background:linear-gradient(135deg,#0f172a,#111827);color:#e5e7eb}
+.footer a{color:#e5e7eb;text-decoration:none}
+.footer a:hover{color:#fff}
+.stat-card{background:#fff;border:1px solid var(--border);border-radius:22px;padding:1.2rem;box-shadow:0 10px 24px rgba(15,23,42,.05)}
+.price{font-size:1.5rem;font-weight:800;color:var(--primary-dark)}
+.text-muted-2{color:#94a3b8}
+@media (max-width: 991px){.hero{min-height:auto;padding:120px 0 80px}.display-3{font-size:2.6rem}}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+<div class="container py-2">
+<a class="navbar-brand fw-bold text-dark" href="#top"><i class="bi bi-lightning-charge-fill text-success me-2"></i>FIT FOCUS</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse" id="nav">
+<ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+<li class="nav-item"><a class="nav-link" href="#productos">Productos</a></li>
+<li class="nav-item"><a class="nav-link" href="#categorias">Categorías</a></li>
+<li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+<li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+<li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+<li class="nav-item ms-lg-2"><a class="btn btn-primary btn-sm px-3" href="#productos">Comprar ahora</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<section id="top" class="hero">
+<div class="container">
+<div class="row align-items-center g-5">
+<div class="col-lg-7">
+<span class="badge badge-custom rounded-pill px-3 py-2 mb-3">Suplementos premium en Chile</span>
+<h1 class="display-3 mb-4">Nutrición inteligente para entrenar mejor y recuperar más rápido.</h1>
+<p class="lead mb-4">Creatina, proteínas, vitaminas y accesorios seleccionados para personas que quieren resultados reales con una estética limpia, moderna y profesional.</p>
+<div class="d-flex flex-wrap gap-3 mb-4">
+<a href="#productos" class="btn btn-primary btn-lg px-4">Ver productos</a>
+<a href="#contacto" class="btn btn-outline-light btn-lg px-4">Escríbenos</a>
+</div>
+<div class="d-flex flex-wrap gap-3">
+<div class="feature-pill"><i class="bi bi-check2-circle text-success"></i>Envíos rápidos</div>
+<div class="feature-pill"><i class="bi bi-shield-check text-success"></i>Compra segura</div>
+<div class="feature-pill"><i class="bi bi-star-fill text-warning"></i>Calidad premium</div>
+</div>
+</div>
+<div class="col-lg-5">
+<div class="stat-card mb-3"><div class="d-flex align-items-center gap-3"><i class="bi bi-graph-up-arrow fs-1 text-success"></i><div><h5 class="mb-1 fw-bold">Rendimiento</h5><p class="mb-0 text-muted-2">Optimiza tu progreso con una estrategia clara de nutrición.</p></div></div></div>
+<div class="stat-card mb-3"><div class="d-flex align-items-center gap-3"><i class="bi bi-droplet-half fs-1 text-success"></i><div><h5 class="mb-1 fw-bold">Recuperación</h5><p class="mb-0 text-muted-2">Apoya tus entrenamientos con suplementos diseñados para recuperación muscular.</p></div></div></div>
+<div class="stat-card"><div class="d-flex align-items-center gap-3"><i class="bi bi-bag-check fs-1 text-success"></i><div><h5 class="mb-1 fw-bold">Catálogo curado</h5><p class="mb-0 text-muted-2">Productos elegidos para una tienda limpia, fuerte y fácil de explorar.</p></div></div></div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="productos" class="section-padding">
+<div class="container">
+<div class="text-center mb-5"><h2 class="section-title">Productos destacados</h2><p class="section-subtitle">Tres opciones clave con presentación uniforme tipo ecommerce.</p></div>
+<div class="row g-4">
+<div class="col-md-4"><div class="card card-product h-100"><div class="card-body p-4"><div class="icon-wrap mb-4"><i class="bi bi-lightning-charge-fill fs-2 text-success"></i></div><span class="badge badge-custom mb-3">Fuerza</span><h4 class="fw-bold">Creatina Monohidratada</h4><p class="text-muted">Apoya la fuerza, el volumen y el rendimiento en tus rutinas más exigentes.</p><div class="d-flex justify-content-between align-items-center mt-4"><span class="price">$19.990</span><a href="#contacto" class="btn btn-primary">Consultar</a></div></div></div></div>
+<div class="col-md-4"><div class="card card-product h-100"><div class="card-body p-4"><div class="icon-wrap mb-4"><i class="bi bi-egg-fried fs-2 text-success"></i></div><span class="badge badge-custom mb-3">Proteína</span><h4 class="fw-bold">Whey Protein</h4><p class="text-muted">Proteína de alta calidad para apoyar masa muscular y recuperación post-entreno.</p><div class="d-flex justify-content-between align-items-center mt-4"><span class="price">$34.990</span><a href="#contacto" class="btn btn-primary">Consultar</a></div></div></div></div>
+<div class="col-md-4"><div class="card card-product h-100"><div class="card-body p-4"><div class="icon-wrap mb-4"><i class="bi bi-capsule-pill fs-2 text-success"></i></div><span class="badge badge-custom mb-3">Salud</span><h4 class="fw-bold">Multivitamínico</h4><p class="text-muted">Apoyo diario para energía, bienestar general y mejor recuperación.</p><div class="d-flex justify-content-between align-items-center mt-4"><span class="price">$12.990</span><a href="#contacto" class="btn btn-primary">Consultar</a></div></div></div></div>
+</div>
+</div>
+</section>
+
+<section id="categorias" class="section-padding bg-soft">
+<div class="container">
+<div class="text-center mb-5"><h2 class="section-title">Categorías</h2><p class="section-subtitle">Explora por objetivo y encuentra lo que necesitas.</p></div>
+<div class="row g-4">
+<div class="col-md-3 text-center"><div class="card-product p-4 h-100"><i class="bi bi-fuel-pump-fill display-4 text-success mb-3"></i><h5 class="fw-bold">Fuerza</h5><p class="text-muted mb-0">Creatina y pre-entrenos para rendimiento explosivo.</p></div></div>
+<div class="col-md-3 text-center"><div class="card-product p-4 h-100"><i class="bi bi-shield-check display-4 text-success mb-3"></i><h5 class="fw-bold">Recuperación</h5><p class="text-muted mb-0">BCAA, glutamina y soporte post-entrenamiento.</p></div></div>
+<div class="col-md-3 text-center"><div class="card-product p-4 h-100"><i class="bi bi-heart-pulse display-4 text-success mb-3"></i><h5 class="fw-bold">Vitaminas</h5><p class="text-muted mb-0">Multivitamínicos y omega para bienestar diario.</p></div></div>
+<div class="col-md-3 text-center"><div class="card-product p-4 h-100"><i class="bi bi-bar-chart-fill display-4 text-success mb-3"></i><h5 class="fw-bold">Masa muscular</h5><p class="text-muted mb-0">Proteínas y ganadores de peso para tu objetivo.</p></div></div>
+</div>
+</div>
+</section>
+
+<section id="nosotros" class="section-padding">
+<div class="container">
+<div class="row align-items-center g-5">
+<div class="col-lg-6"><span class="badge badge-custom rounded-pill px-3 py-2 mb-3">Sobre nosotros</span><h2 class="section-title mb-4">¿Por qué FIT FOCUS?</h2><p class="text-muted mb-4">Construimos una tienda visualmente limpia, rápida y confiable para acompañar a personas que entrenan con objetivos claros.</p><div class="row g-3"><div class="col-md-6"><div class="stat-card h-100"><i class="bi bi-check-circle-fill text-success me-2"></i>Importados premium</div></div><div class="col-md-6"><div class="stat-card h-100"><i class="bi bi-check-circle-fill text-success me-2"></i>Envíos 24h Santiago</div></div><div class="col-md-6"><div class="stat-card h-100"><i class="bi bi-check-circle-fill text-success me-2"></i>Precios competitivos</div></div><div class="col-md-6"><div class="stat-card h-100"><i class="bi bi-check-circle-fill text-success me-2"></i>Garantía de satisfacción</div></div></div></div>
+<div class="col-lg-6 text-center"><img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=1200&q=80" class="img-fluid rounded-4 shadow" alt="gym"></div>
+</div>
+</div>
+</section>
+
+<section id="faq" class="section-padding bg-soft">
+<div class="container">
+<div class="text-center mb-5"><h2 class="section-title">Preguntas frecuentes</h2><p class="section-subtitle">Resolvemos las dudas más comunes antes de comprar.</p></div>
+<div class="accordion" id="faqAccordion">
+<div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">¿Cuánto tarda el envío?</button></h2><div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion"><div class="accordion-body">En Santiago suele tardar 24 horas y al resto de Chile entre 48 y 72 horas.</div></div></div>
+<div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">¿Los productos son originales?</button></h2><div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Sí, trabajamos con productos originales y seleccionados para asegurar calidad.</div></div></div>
+<div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">¿Puedo pedir asesoría?</button></h2><div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Sí, puedes escribirnos para recibir orientación según tu objetivo de entrenamiento.</div></div></div>
+</div>
+</div>
+</section>
+
+<section id="contacto" class="section-padding">
+<div class="container">
+<div class="row justify-content-center"><div class="col-lg-8"><div class="text-center mb-5"><h2 class="section-title">Contáctanos</h2><p class="section-subtitle">Escríbenos y te respondemos lo antes posible.</p></div><form id="contactForm" class="card-product p-4 p-md-5"><div class="row g-3"><div class="col-md-6"><input type="text" class="form-control" placeholder="Nombre" required></div><div class="col-md-6"><input type="email" class="form-control" placeholder="Email" required></div><div class="col-12"><input type="text" class="form-control" placeholder="Asunto" required></div><div class="col-12"><textarea class="form-control" rows="5" placeholder="Mensaje" required></textarea></div><div class="col-12 d-grid"><button type="submit" class="btn btn-primary btn-lg">Enviar mensaje</button></div></div></form></div></div>
+</div>
+</section>
+
+<footer class="footer py-5">
+<div class="container"><div class="row g-4"><div class="col-md-4"><h5 class="fw-bold mb-3">FIT FOCUS</h5><p class="mb-0">Suplementos premium para deportistas exigentes.</p></div><div class="col-md-4"><h6 class="fw-bold mb-3">Contacto</h6><p class="mb-1">📧 ventas@fitfocus.cl</p><p class="mb-1">📱 +569 1234 5678</p></div><div class="col-md-4"><h6 class="fw-bold mb-3">Síguenos</h6><p class="mb-1"><i class="bi bi-instagram me-2"></i>Instagram</p><p class="mb-0"><i class="bi bi-whatsapp me-2"></i>WhatsApp</p></div></div></div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>document.getElementById('contactForm').addEventListener('submit',function(e){e.preventDefault();alert('¡Mensaje enviado! Te contactamos en 24h.');this.reset();});</script>
+</body>
+</html>
